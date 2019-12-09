@@ -23,7 +23,7 @@ from django.conf import settings
 
 from .views import redirect_blog
 urlpatterns = [
-    path('',redirect_blog),
+    path('',include('portalapp.urls')),
     path('admin/', admin.site.urls),
     #path('example/', include('portalapp.urls')),
 
