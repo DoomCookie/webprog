@@ -1,0 +1,14 @@
+{% extends 'portalapp/base_blog.html' %}
+
+{% block title %}
+  Tags list - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+  <h1 class='mb-5'> Post with "{{ tag.title|title }}" tag:</h1>
+
+  {% for post in page_object.object_list %}
+    {% include 'portalapp/includes/post_card_template.html' %}
+  {% endfor %}
+
+{% endblock %}
