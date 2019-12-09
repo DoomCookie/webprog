@@ -129,5 +129,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'portal/media')
 
 STATICFILES_DIRS = (
     #os.path.join(BASE_DIR, 'portalapp/static_in_development'),
-    os.path.join(BASE_DIR, 'static'),
+    #os.path.join(BASE_DIR, 'static'),
 )
