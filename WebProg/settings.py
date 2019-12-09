@@ -25,7 +25,7 @@ SECRET_KEY = '5qy=s#pj#of&*+evjwx707i(ope)x7^nj3a4_kp-3lhet5@=fs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hunter13.pythonanywhere.com']
 
 
 # Application definition
@@ -131,3 +131,7 @@ STATICFILES_DIRS = (
     #os.path.join(BASE_DIR, 'portalapp/static_in_development'),
     #os.path.join(BASE_DIR, 'static'),
 )
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
