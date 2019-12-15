@@ -25,7 +25,7 @@ SECRET_KEY = '5qy=s#pj#of&*+evjwx707i(ope)x7^nj3a4_kp-3lhet5@=fs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hunter13.pythonanywhere.com']
+ALLOWED_HOSTS = ['hunter13.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
