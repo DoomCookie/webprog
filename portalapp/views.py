@@ -21,7 +21,7 @@ def example_views(request):
 
         posts = Post.objects.all()
 
-    paginator = Paginator(posts,2)
+    paginator = Paginator(posts,4)
 
 
     page_number = request.GET.get('page',1)
